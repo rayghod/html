@@ -1,0 +1,191 @@
+@media screen{
+body
+	{
+		width:80em;
+		background-image:url('tlo.jpg');
+		color:white;
+		font-family: georgia;
+	}
+
+#top
+	{
+	width:60em;
+	height:5em;
+	margin-left:10em;
+	}
+
+#menu 
+	{
+  	width:60em;
+	overflow: hidden;
+	margin-left: 10.5em;
+	padding-bottom: 1em;
+	}
+
+a
+	{
+		color:#999;
+	}
+#menu a
+	{
+	text-decoration:none;
+	color:black;
+	padding-left:1em;
+	padding-right:1em;
+	color: #999; 
+	text-transform: uppercase; 
+	font: 0.965em Arial, Helvetica; 
+	}
+
+#menu ul
+	{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  	}
+
+#menu li
+	{
+	list-style-type: none;
+	float:left;
+	margin-top:1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	border-radius: 25px; 
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.9);
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+
+	}
+
+.podmenu ul
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	list-style: none;
+
+	}
+
+.podmenu li
+	{
+	clear:both;
+	border: 0;
+	margin-left:0;
+	}
+
+#main
+	{
+	width:60em;
+	margin-left: 10em;
+	position: absolute;
+	top:10em;
+	z-index: -1;
+
+	}
+
+#leftmain
+	{
+	width:37em;
+	float:left;
+	text-align:justify;
+	padding: 1em;
+	border-radius:25px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+		}
+
+#rightmain
+	{
+	margin-top:5em;
+	width:17em;
+	float:right;
+	text-align:center;
+	padding: 1em;
+	border-radius:25px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	letter-spacing: 0.1em;
+}
+
+.galeria img
+	{
+		width:200px;
+		height: 285.5px;
+		float: left;
+		margin-right: 1em; 
+	}
+
+ 
+.miniatury img
+	{
+	width:70px;
+	height:100px;
+	float:left;
+	margin: 0.55em;
+	}
+
+.galeria
+	{
+		margin-top: 1em;
+	}
+.okladka
+	{
+		float:left;
+	}
+#kosci
+	{
+		width:150px;
+		float:left;
+		margin-right:1em;
+	}
+#spacemarine
+	{
+		width:20em;
+		float:left;
+		margin-right: 1em;
+	}
+span
+	{
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
+table
+	{
+		text-align: center;
+		margin-left:3em	;
+	}
+
+th
+	{
+		font-size: 1.5em;
+		color:white;
+	}
+thead
+	{
+	background: #999;
+	}
+
+td 
+	{
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding:0.5em;
+	font-size: 1em;
+	}
+
+label.error
+	{
+		color:red;
+	}
+
+label.box  
+	{
+	 width: 100px; float: left; 
+	}
+
+}

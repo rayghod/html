@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		
+		<title>Projekt</title>
+
+		<link href="szablon.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="druk.css" rel="stylesheet" type="text/css" media="print">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    	<script type="text/javascript" src="jquery/main.js"></script>
+    <style>
+    
+	#info{
+		width: 30px; 
+		height: 30px; 
+		background: url('galeria/sprite.png') ; 	
+		background-position: 0px 0px; 
+	}
+	#sprawdzone
+	{
+		
+		width: 30px; 
+		height: 30px; 
+		background:url('galeria/sprite.png');
+		background-position: -32px 0px; 
+	}
+	#warning
+	{
+		
+		width: 30px; 
+		height: 30px; 
+		background:url('galeria/sprite.png');
+		background-position: -64px 0px; 
+		}
+	#error
+		{
+		
+		width: 30px; 
+		height: 30px; 
+		background:url('galeria/sprite.png');
+		background-position: -96px 0px; 
+		}
+
+    </style>
+    </head>
+
+	<body>
+	<div>
+	<a href="index.html"><img src="galeria/banner.png" alt="naglowek" id="top"></a>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Strona Główna</a></li>
+			<li><a href="rpg.html">Gry fabularne</a></li>
+			<li><a href="warhammer40k.html">Warhammer 40k</a>				
+				<ul class="podmenu">
+					<li><a href="dark.html">Dark Heresy</a></li>
+					<li><a href="rogue.html">Rogue Trader</a></li>
+				</ul></li>
+			<li><a href="gatunki.html">Gatunki</a></li>
+			<li><a href="pratchett.html">Terry Pratchett</a>
+				<ul class="podmenu">
+					<li><a href="pratchett.html">Biografia</a></li>
+					<li><a href="galeria.html">Książki</a></li>
+				</ul></li>
+			<li><a href="rejestracja.html">Rejestracja</a></li>
+		</ul>
+	</div>
+
+	<div id="main">
+
+		<div id="leftmain">
+			<img src="galeria/sprite.png" alt="sprite">
+			<div  id="info" ></div>
+			<div  id="sprawdzone" ></div>
+			<div  id="warning" ></div>
+			<div  id="error" ></div>
+		</div>
+
+		<div id="rightmain">
+
+        
+        
+
+		</div>
+
+	</div>
+	</body>
+</html>

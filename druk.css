@@ -1,0 +1,86 @@
+@media print{
+
+body
+	{
+		width:29.7cm;
+	}
+
+#top
+	{
+	width:60em;
+	height:5em;
+	margin-left:10em;
+	}
+
+#menu 
+	{
+  	display:none;
+	}
+
+#menu a
+	{
+	text-decoration:none;
+	color:black;
+	padding-left:1em;
+	padding-right:1em;
+	color: #999; 
+	text-transform: uppercase; 
+	font: 1em Arial, Helvetica; 
+	}
+
+#menu ul
+	{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  	}
+
+#menu li
+	{
+	list-style-type: none;
+	float:left;
+	margin-top:1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	border-radius: 25px; 
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.9);
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	}
+
+#main
+	{
+	width:60em;
+	margin-left: 10em;
+	position: absolute;
+	top:10em;
+	z-index: -1;
+
+	}
+
+#leftmain
+	{
+	width:37em;
+	float:left;
+	text-align:justify;
+	padding: 1em;
+	border-radius:25px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+		}
+
+#rightmain
+	{
+	margin-top:5em;
+	width:17em;
+	float:right;
+	text-align:center;
+	padding: 1em;
+	border-radius:25px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	letter-spacing: 0.1em;
+}
+
+}
