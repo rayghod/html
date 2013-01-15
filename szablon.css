@@ -1,24 +1,28 @@
 @media screen{
 body
 	{
-		width:80em;
 		background-image:url('tlo.jpg');
 		color:white;
 		font-family: georgia;
 	}
 
+#container
+	{
+		margin:0 auto;
+		width:60em;
+	}
+
 #top
 	{
-	width:60em;
 	height:5em;
-	margin-left:10em;
+
 	}
 
 #menu 
 	{
   	width:60em;
 	overflow: hidden;
-	margin-left: 10.5em;
+	margin-left: 0.5em;
 	padding-bottom: 1em;
 	}
 
@@ -79,7 +83,6 @@ a
 #main
 	{
 	width:60em;
-	margin-left: 10em;
 	position: absolute;
 	top:10em;
 	z-index: -1;
