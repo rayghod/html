@@ -1,14 +1,15 @@
 $(function() { 
         
         $("ul.podmenu").hide();
-
         $("li").hover(
-          	function(){
-              		$(this).find(".podmenu").slideDown("500");
-                	},
-          	function(){
-               		$(this).find(".podmenu").slideUp();
-                	});
+            function(){
+                  $(this).find(".podmenu").slideDown("500");
+                  },
+            function(){
+                  $(this).find(".podmenu").slideUp();
+                  });
+
+
 
         $("a").hover(
                 function(){

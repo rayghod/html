@@ -4,6 +4,7 @@ body
 		background-image:url('tlo.jpg');
 		color:white;
 		font-family: georgia;
+		font-size:1.15em;
 	}
 
 #container
@@ -58,8 +59,8 @@ a
 	border-radius: 25px; 
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.9);
-	margin-right: 0.2em;
-	margin-left: 0.2em;
+	margin-right: 0.15em;
+	margin-left: 0.15em;
 
 	}
 
